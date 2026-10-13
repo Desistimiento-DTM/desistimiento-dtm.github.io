@@ -1,14 +1,14 @@
 {
-  "nombre": "DESISTIMIENTO INMOBILIARIO",
-  "lema": "Desistimiento inmobiliario",
-  "descripcionCorta": "Desistimiento inmobiliario y protección del consumidor.",
-  "dominio": "https://[DOMINIO-POR-DEFINIR]",
-  "logo": "",
-  "whatsapp": "+57 320 2503247",
-  "mensajeWhatsapp": "Hola, quiero evaluar mi caso de desistimiento inmobiliario.",
-  "correo": "desistimientoinmobiliario@gmail.com",
-  "ciudad": "Bogotá, Colombia",
   "urlFormulario": "",
+  "descripcionCorta": "Desistimiento inmobiliario y protección del consumidor.",
+  "nombre": "DESISTIMIENTO INMOBILIARIO",
+  "logo": "",
+  "lema": "Desistimiento inmobiliario",
+  "dominio": "https://[DOMINIO-POR-DEFINIR]",
+  "seoDescripcion": "Te acompañamos en el análisis y gestión de situaciones relacionadas con desistimientos inmobiliarios, contratos y protección del consumidor inmobiliario.",
+  "mensajeWhatsapp": "Hola, quiero evaluar mi caso de desistimiento inmobiliario.",
+  "whatsapp": "+57 320 250 3247",
+  "correo": "desistimientoinmobiliario@gmail.com",
   "seoTitulo": "Desistimiento inmobiliario",
-  "seoDescripcion": "Te acompañamos en el análisis y gestión de situaciones relacionadas con desistimientos inmobiliarios, contratos y protección del consumidor inmobiliario."
+  "ciudad": "Bogotá, Colombia"
 }
