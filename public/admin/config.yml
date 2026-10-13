@@ -4,7 +4,7 @@
 # ─────────────────────────────────────────────────────────────
 backend:
   name: github
-  repo: USUARIO-GITHUB/NOMBRE-REPOSITORIO   # ← CAMBIAR, ej.: salo/desistimiento-web
+       repo: Desistimiento-DTM/desistimiento-dtm.github.io
   branch: main
   commit_messages:
     create: 'Crear {{collection}} "{{slug}}"'
