@@ -6,6 +6,7 @@ backend:
   name: github
   repo: Desistimiento-DTM/desistimiento-dtm.github.io
   branch: main
+  base_url: https://sveltia-cms-auth.desistimientoinmobiliario.workers.dev
   commit_messages:
     create: 'Crear {{collection}} "{{slug}}"'
     update: 'Actualizar {{collection}} "{{slug}}"'
