@@ -1,0 +1,23 @@
+{
+  "etiqueta": "Nuestro método",
+  "titulo": "Un proceso claro y sin complicaciones.",
+  "pasos": [
+    {
+      "titulo": "Cuéntanos tu caso",
+      "texto": "Conocemos tu situación y recibimos la información necesaria."
+    },
+    {
+      "titulo": "Analizamos tu documentación",
+      "texto": "Revisamos contrato, pagos y condiciones aplicables."
+    },
+    {
+      "titulo": "Definimos las alternativas",
+      "texto": "Te explicamos las opciones disponibles para tu situación."
+    },
+    {
+      "titulo": "Te acompañamos",
+      "texto": "Seguimos el proceso y mantenemos comunicación contigo."
+    }
+  ],
+  "boton": "Empezar con mi caso"
+}

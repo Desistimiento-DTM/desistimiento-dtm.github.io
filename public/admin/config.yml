@@ -1,0 +1,278 @@
+# ─────────────────────────────────────────────────────────────
+#  Panel de administración (Decap CMS)
+#  Cambia SOLO la línea "repo" por tu usuario y repositorio de GitHub.
+# ─────────────────────────────────────────────────────────────
+backend:
+  name: github
+  repo: USUARIO-GITHUB/NOMBRE-REPOSITORIO   # ← CAMBIAR, ej.: salo/desistimiento-web
+  branch: main
+  commit_messages:
+    create: 'Crear {{collection}} "{{slug}}"'
+    update: 'Actualizar {{collection}} "{{slug}}"'
+    delete: 'Eliminar {{collection}} "{{slug}}"'
+    uploadMedia: 'Subir imagen "{{path}}"'
+    deleteMedia: 'Eliminar imagen "{{path}}"'
+
+# Permite probar el panel en el computador con "npx decap-server" (ver GUIA-PANEL.md)
+local_backend: true
+
+locale: es
+editor:
+  preview: false
+
+# Dónde se guardan las imágenes que subes desde el panel
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  # ═══════════════════════════════ AJUSTES ═══════════════════════════════
+  - name: ajustes
+    label: Ajustes generales
+    description: Nombre de la empresa, logo, WhatsApp, correo y datos para Google.
+    editor: { preview: false }
+    files:
+      - name: ajustes
+        label: Datos de la empresa y contacto
+        file: src/content/ajustes.json
+        fields:
+          - { label: Nombre de la empresa, name: nombre, widget: string }
+          - { label: Texto bajo el nombre, name: lema, widget: string, hint: 'Aparece debajo del nombre en el encabezado.' }
+          - { label: Descripción corta (pie de página), name: descripcionCorta, widget: string }
+          - { label: Logo, name: logo, widget: image, required: false, hint: 'Opcional. PNG o SVG con fondo transparente. Si lo dejas vacío se usa el símbolo provisional.' }
+          - { label: Número de WhatsApp, name: whatsapp, widget: string, hint: 'Con indicativo de país y sin espacios ni signos. Ej.: 573001234567' }
+          - { label: Mensaje inicial de WhatsApp, name: mensajeWhatsapp, widget: string, hint: 'Texto que aparece escrito cuando la persona abre el chat.' }
+          - { label: Correo electrónico, name: correo, widget: string }
+          - { label: Ciudad, name: ciudad, widget: string }
+          - { label: Dominio del sitio, name: dominio, widget: string, hint: 'Con https://, sin barra al final. Ej.: https://www.miempresa.com' }
+          - { label: URL de recepción del formulario, name: urlFormulario, widget: string, required: false, hint: 'Opcional. Dirección (Formspree, Make, CRM…) que recibe los casos enviados. Vacío = modo demostración.' }
+          - { label: Título para Google, name: seoTitulo, widget: string }
+          - { label: Descripción para Google, name: seoDescripcion, widget: text, hint: 'Entre 120 y 160 caracteres.' }
+
+  # ═══════════════════════════ PÁGINA DE INICIO ══════════════════════════
+  - name: inicio
+    label: Página de inicio
+    description: Todas las secciones de la página principal, en orden.
+    editor: { preview: false }
+    files:
+      - name: hero
+        label: 1. Portada (primera pantalla)
+        file: src/content/inicio.json
+        fields:
+          - { label: Texto pequeño superior, name: etiqueta, widget: string }
+          - { label: Título, name: titulo, widget: string }
+          - { label: Parte del título destacada (en color), name: tituloDestacado, widget: string, required: false }
+          - { label: Subtítulo, name: subtitulo, widget: text }
+          - { label: Botón principal, name: botonPrincipal, widget: string, hint: 'Abre el formulario "Evalúa tu caso".' }
+          - { label: Botón secundario, name: botonSecundario, widget: string, hint: 'Abre WhatsApp.' }
+          - label: Beneficios
+            name: beneficios
+            label_singular: Beneficio
+            widget: list
+            field: { label: Beneficio, name: beneficio, widget: string }
+          - { label: Imagen, name: imagen, widget: image, hint: 'Recomendado: horizontal o vertical de al menos 1400 px, menos de 400 KB.' }
+          - { label: Descripción de la imagen (para Google y accesibilidad), name: imagenAlt, widget: string }
+          - { label: Tarjeta sobre la imagen — título, name: tarjetaTitulo, widget: string, required: false }
+          - { label: Tarjeta sobre la imagen — texto, name: tarjetaTexto, widget: string, required: false }
+
+      - name: servicios
+        label: 2. Servicios
+        file: src/content/servicios.json
+        fields:
+          - { label: Texto pequeño superior, name: etiqueta, widget: string }
+          - { label: Título, name: titulo, widget: string }
+          - { label: Texto, name: texto, widget: text }
+          - label: Servicios
+            name: servicios
+            label_singular: Servicio
+            widget: list
+            summary: '{{fields.titulo}}'
+            fields:
+              - { label: Título, name: titulo, widget: string }
+              - { label: Texto, name: texto, widget: text }
+              - label: Icono
+                name: icono
+                widget: select
+                options:
+                  - { label: Casa, value: home }
+                  - { label: Documento, value: document }
+                  - { label: Edificio, value: building }
+                  - { label: Balanza, value: scale }
+                  - { label: Escudo, value: shield }
+                  - { label: Lupa, value: search }
+                  - { label: Corazón, value: heart }
+                  - { label: Conversación, value: chat }
+              - { label: Imagen, name: imagen, widget: image, required: false }
+              - { label: Descripción de la imagen, name: imagenAlt, widget: string, required: false }
+              - { label: Identificador para enlaces, name: id, widget: string, required: false, hint: 'Opcional, sin espacios ni tildes (ej.: contratos).' }
+
+      - name: desistimiento
+        label: 3. Sección destacada de desistimiento
+        file: src/content/desistimiento.json
+        fields:
+          - { label: Texto pequeño superior, name: etiqueta, widget: string }
+          - { label: Título, name: titulo, widget: string }
+          - { label: Parte del título destacada (en color), name: tituloDestacado, widget: string, required: false }
+          - { label: Texto, name: texto, widget: text }
+          - { label: Botón, name: boton, widget: string }
+          - { label: Imagen de fondo, name: imagenFondo, widget: image, required: false, hint: 'Se oscurece automáticamente para que el texto se lea bien.' }
+          - { label: Tarjeta — texto pequeño, name: tarjetaEtiqueta, widget: string }
+          - { label: Tarjeta — título, name: tarjetaTitulo, widget: string }
+          - label: Tarjeta — lista
+            name: lista
+            label_singular: Punto
+            widget: list
+            field: { label: Punto, name: punto, widget: string }
+
+      - name: nosotros
+        label: 4. Sobre nosotros
+        file: src/content/nosotros.json
+        fields:
+          - { label: Texto pequeño superior, name: etiqueta, widget: string }
+          - { label: Título, name: titulo, widget: string }
+          - { label: Texto, name: texto, widget: text }
+          - { label: Imagen, name: imagen, widget: image }
+          - { label: Descripción de la imagen, name: imagenAlt, widget: string, required: false }
+          - label: Valores
+            name: valores
+            label_singular: Valor
+            widget: list
+            summary: '{{fields.titulo}}'
+            fields:
+              - { label: Título, name: titulo, widget: string }
+              - { label: Texto, name: texto, widget: string }
+              - label: Icono
+                name: icono
+                widget: select
+                options:
+                  - { label: Escudo, value: shield }
+                  - { label: Lupa, value: search }
+                  - { label: Corazón, value: heart }
+                  - { label: Documento, value: document }
+                  - { label: Casa, value: home }
+                  - { label: Balanza, value: scale }
+          - { label: Botón, name: boton, widget: string }
+          - { label: Introducción de la página "Nosotros", name: paginaIntro, widget: text, required: false }
+
+      - name: metodo
+        label: 5. Nuestro método
+        file: src/content/metodo.json
+        fields:
+          - { label: Texto pequeño superior, name: etiqueta, widget: string }
+          - { label: Título, name: titulo, widget: string }
+          - label: Pasos
+            name: pasos
+            label_singular: Paso
+            widget: list
+            summary: '{{fields.titulo}}'
+            fields:
+              - { label: Título, name: titulo, widget: string }
+              - { label: Texto, name: texto, widget: text }
+          - { label: Botón, name: boton, widget: string, required: false }
+
+      - name: casos
+        label: 6. Casos y situaciones
+        file: src/content/casos.json
+        fields:
+          - { label: Texto pequeño superior, name: etiqueta, widget: string }
+          - { label: Título, name: titulo, widget: string }
+          - label: Casos
+            name: casos
+            label_singular: Caso
+            widget: list
+            summary: '{{fields.titulo}}'
+            fields:
+              - { label: Título, name: titulo, widget: string }
+              - { label: Texto, name: texto, widget: text }
+              - { label: Es un ejemplo ilustrativo, name: esEjemplo, widget: boolean, default: false, hint: 'Actívalo si no es un caso real; se mostrará la etiqueta "Ejemplo ilustrativo".' }
+          - { label: Nota bajo los ejemplos, name: notaEjemplos, widget: string, required: false }
+
+      - name: testimonios
+        label: 7. Testimonios
+        file: src/content/testimonios.json
+        fields:
+          - { label: Texto pequeño superior, name: etiqueta, widget: string }
+          - { label: Título, name: titulo, widget: string }
+          - label: Testimonios
+            name: testimonios
+            label_singular: Testimonio
+            widget: list
+            summary: '{{fields.nombre}} — {{fields.tipoCaso}}'
+            hint: 'Publica solo testimonios reales y con autorización del cliente.'
+            fields:
+              - { label: Testimonio, name: texto, widget: text }
+              - { label: Nombre, name: nombre, widget: string, hint: 'Puede ser solo nombre e inicial, ej.: María G.' }
+              - { label: Iniciales, name: iniciales, widget: string, required: false, hint: 'Opcional. Si lo dejas vacío se calculan solas.' }
+              - { label: Tipo de caso, name: tipoCaso, widget: string, required: false }
+              - { label: Calificación (0 a 5), name: calificacion, widget: number, value_type: int, min: 0, max: 5, default: 5 }
+              - { label: Es un texto de ejemplo, name: esEjemplo, widget: boolean, default: false }
+
+      - name: blog
+        label: 8. Encabezado del blog
+        file: src/content/blog.json
+        fields:
+          - { label: Texto pequeño superior, name: etiqueta, widget: string }
+          - { label: Título, name: titulo, widget: string }
+          - { label: Artículos a mostrar en el inicio, name: articulosEnInicio, widget: number, value_type: int, min: 1, max: 9, default: 3 }
+
+      - name: contacto
+        label: 9. Llamado final y formulario
+        file: src/content/contacto.json
+        fields:
+          - { label: Título, name: titulo, widget: string }
+          - { label: Parte del título destacada (en color), name: tituloDestacado, widget: string, required: false }
+          - { label: Texto, name: texto, widget: text }
+          - { label: Botón principal, name: botonPrincipal, widget: string }
+          - { label: Botón de WhatsApp, name: botonWhatsapp, widget: string }
+          - { label: Formulario — título, name: formularioTitulo, widget: string }
+          - { label: Formulario — parte destacada, name: formularioTituloDestacado, widget: string, required: false }
+          - { label: Formulario — texto de introducción, name: formularioTexto, widget: text }
+          - { label: Mensaje después de enviar, name: mensajeConfirmacion, widget: text }
+
+  # ═══════════════════════════════ BLOG ══════════════════════════════════
+  - name: articulos
+    label: Artículos del blog
+    label_singular: Artículo
+    description: Crea, edita o despublica artículos. Los más recientes aparecen primero.
+    folder: src/content/articulos
+    format: json
+    extension: json
+    create: true
+    delete: true
+    slug: '{{slug}}'
+    identifier_field: titulo
+    summary: '{{titulo}} — {{fecha}}'
+    sortable_fields: [fecha, titulo]
+    editor: { preview: false }
+    fields:
+      - { label: Título, name: titulo, widget: string }
+      - { label: Fecha, name: fecha, widget: datetime, format: 'YYYY-MM-DD', date_format: 'DD/MM/YYYY', time_format: false }
+      - { label: Categoría, name: categoria, widget: string, hint: 'Ej.: Desistimiento, Contratos, Constructoras.' }
+      - { label: Resumen, name: resumen, widget: text, hint: 'Una o dos frases. Aparece en la tarjeta y en Google.' }
+      - { label: Imagen, name: imagen, widget: image, required: false }
+      - { label: Descripción de la imagen, name: imagenAlt, widget: string, required: false }
+      - { label: Publicado, name: publicado, widget: boolean, default: true, hint: 'Desactívalo para ocultar el artículo sin borrarlo.' }
+      - { label: Contenido, name: contenido, widget: markdown }
+
+  # ═══════════════════════════ TEXTOS LEGALES ════════════════════════════
+  - name: legal
+    label: Textos legales
+    editor: { preview: false }
+    files:
+      - name: privacidad
+        label: Política de privacidad
+        file: src/content/legal/privacidad.json
+        fields:
+          - { label: Título, name: titulo, widget: string }
+          - { label: Contenido, name: contenido, widget: markdown }
+      - name: tratamiento-de-datos
+        label: Tratamiento de datos personales
+        file: src/content/legal/tratamiento-de-datos.json
+        fields:
+          - { label: Título, name: titulo, widget: string }
+          - { label: Contenido, name: contenido, widget: markdown }
+      - name: terminos
+        label: Términos y condiciones
+        file: src/content/legal/terminos.json
+        fields:
+          - { label: Título, name: titulo, widget: string }
+          - { label: Contenido, name: contenido, widget: markdown }

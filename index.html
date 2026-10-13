@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es-CO">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4A1420" />
+
+    <!-- SEO base. Los títulos de cada página se definen en src/components/ui/Seo.jsx -->
+    <title>%SEO_TITLE% | %SITE_NAME%</title>
+    <meta name="description" content="%SEO_DESCRIPTION%" />
+    <link rel="canonical" href="%SITE_DOMAIN%/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:site_name" content="%SITE_NAME%" />
+    <meta property="og:title" content="%SEO_TITLE% | %SITE_NAME%" />
+    <meta property="og:description" content="%SEO_DESCRIPTION%" />
+    <meta property="og:url" content="%SITE_DOMAIN%/" />
+    <!-- Reemplazar por una imagen JPG/PNG de 1200x630 en /public/og-image.jpg -->
+    <meta property="og:image" content="%SITE_DOMAIN%/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Los valores %...% se completan automáticamente desde src/content/ajustes.json al compilar. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "%SITE_NAME%",
+        "description": "%SITE_DESCRIPTION%",
+        "url": "%SITE_DOMAIN%/",
+        "areaServed": "CO",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "%SITE_CITY%",
+          "addressCountry": "CO"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

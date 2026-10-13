@@ -1,0 +1,18 @@
+{
+  "etiqueta": "Desistimiento inmobiliario",
+  "titulo": "Antes de tomar una decisión,",
+  "tituloDestacado": "revisa tu contrato.",
+  "texto": "Desistir de una compra inmobiliaria puede tener consecuencias económicas y contractuales. Analizamos tu caso para identificar las alternativas disponibles y ayudarte a tomar una decisión informada.",
+  "boton": "Quiero evaluar mi caso",
+  "imagenFondo": "/images/desistimiento-fondo.svg",
+  "tarjetaEtiqueta": "Revisamos contigo",
+  "tarjetaTitulo": "Aspectos clave de tu caso",
+  "lista": [
+    "Proyectos VIS y No VIS",
+    "Incumplimientos en plazos",
+    "Cambios en precios o condiciones",
+    "Condiciones de desistimiento",
+    "Revisión contractual",
+    "Reclamaciones frente a la constructora"
+  ]
+}

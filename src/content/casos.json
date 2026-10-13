@@ -1,0 +1,22 @@
+{
+  "etiqueta": "Casos y situaciones",
+  "titulo": "Situaciones que podemos ayudarte a gestionar.",
+  "casos": [
+    {
+      "esEjemplo": true,
+      "titulo": "Desistimiento de proyecto inmobiliario",
+      "texto": "Análisis contractual y evaluación de alternativas."
+    },
+    {
+      "esEjemplo": true,
+      "titulo": "Retraso en entrega de vivienda",
+      "texto": "Revisión de condiciones y alternativas frente al incumplimiento."
+    },
+    {
+      "esEjemplo": true,
+      "titulo": "Cambios en condiciones del proyecto",
+      "texto": "Análisis de modificaciones y documentación contractual."
+    }
+  ],
+  "notaEjemplos": "Las situaciones descritas son ejemplos ilustrativos y no corresponden a casos reales de clientes."
+}

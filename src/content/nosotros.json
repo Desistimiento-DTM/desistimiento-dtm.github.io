@@ -1,0 +1,26 @@
+{
+  "etiqueta": "Sobre nosotros",
+  "titulo": "Una asesoría clara para decisiones importantes.",
+  "texto": "Nuestro propósito es ayudar a compradores de vivienda a entender su situación contractual, identificar sus alternativas y tomar decisiones con mayor información y seguridad.",
+  "imagen": "/images/nosotros.svg",
+  "imagenAlt": "Mesa de trabajo con planos, contrato y computador durante una asesoría",
+  "valores": [
+    {
+      "icono": "shield",
+      "titulo": "Experiencia",
+      "texto": "Acompañamiento especializado."
+    },
+    {
+      "icono": "search",
+      "titulo": "Claridad",
+      "texto": "Explicamos cada etapa del proceso."
+    },
+    {
+      "icono": "heart",
+      "titulo": "Cercanía",
+      "texto": "Atención personalizada para cada caso."
+    }
+  ],
+  "boton": "Conoce nuestra empresa",
+  "paginaIntro": "[POR DEFINIR] — Historia, equipo y credenciales de la empresa."
+}

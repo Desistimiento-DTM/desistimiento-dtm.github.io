@@ -1,0 +1,17 @@
+{
+  "etiqueta": "Desistimiento y protección inmobiliaria",
+  "titulo": "¿Quieres desistir de tu",
+  "tituloDestacado": "compra inmobiliaria?",
+  "subtitulo": "Analizamos tu situación, revisamos tu contrato y te acompañamos para encontrar la mejor alternativa para tu caso.",
+  "botonPrincipal": "Evaluar mi caso",
+  "botonSecundario": "Hablar con un asesor",
+  "beneficios": [
+    "Análisis de tu contrato",
+    "Estrategia personalizada",
+    "Acompañamiento durante el proceso"
+  ],
+  "imagen": "/images/hero.svg",
+  "imagenAlt": "Edificios residenciales y contrato de promesa de compraventa sobre la mesa",
+  "tarjetaTitulo": "Revisión de tu promesa de compraventa",
+  "tarjetaTexto": "Antes de firmar o desistir, entiende tu contrato."
+}

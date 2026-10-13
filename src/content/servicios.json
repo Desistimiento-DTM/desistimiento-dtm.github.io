@@ -1,0 +1,39 @@
+{
+  "etiqueta": "Nuestros servicios",
+  "titulo": "¿En qué podemos ayudarte?",
+  "texto": "Te acompañamos en las principales situaciones relacionadas con la compra de vivienda y los conflictos inmobiliarios.",
+  "servicios": [
+    {
+      "id": "desistimiento",
+      "icono": "home",
+      "titulo": "Desistimiento inmobiliario",
+      "texto": "Analizamos tu contrato y tu situación para identificar las alternativas disponibles frente a tu compra inmobiliaria.",
+      "imagen": "/images/servicio-desistimiento.svg",
+      "imagenAlt": "Maqueta de vivienda con llaves sobre una mesa"
+    },
+    {
+      "id": "contratos",
+      "icono": "document",
+      "titulo": "Revisión de contratos",
+      "texto": "Revisamos promesas de compraventa, contratos y documentos relacionados con tu negocio inmobiliario.",
+      "imagen": "/images/servicio-contratos.svg",
+      "imagenAlt": "Contrato y bolígrafo sobre el escritorio"
+    },
+    {
+      "id": "constructoras",
+      "icono": "building",
+      "titulo": "Reclamaciones frente a constructoras",
+      "texto": "Acompañamiento frente a incumplimientos, retrasos, cambios contractuales y otras situaciones relacionadas con proyectos inmobiliarios.",
+      "imagen": "/images/servicio-constructoras.svg",
+      "imagenAlt": "Edificio en construcción con grúa"
+    },
+    {
+      "id": "consumidor",
+      "icono": "scale",
+      "titulo": "Protección al consumidor inmobiliario",
+      "texto": "Orientación frente a situaciones que puedan afectar tus derechos como comprador.",
+      "imagen": "/images/servicio-consumidor.svg",
+      "imagenAlt": "Balanza con una vivienda y un documento"
+    }
+  ]
+}

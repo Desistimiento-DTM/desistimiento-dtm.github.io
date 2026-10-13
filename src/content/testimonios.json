@@ -1,0 +1,54 @@
+{
+  "etiqueta": "Lo que dicen nuestros clientes",
+  "titulo": "Experiencias reales, resultados reales.",
+  "testimonios": [
+    {
+      "esEjemplo": true,
+      "texto": "Aquí irá el testimonio de un cliente.",
+      "nombre": "[NOMBRE DEL CLIENTE]",
+      "iniciales": "—",
+      "tipoCaso": "[TIPO DE CASO]",
+      "calificacion": 0
+    },
+    {
+      "esEjemplo": true,
+      "texto": "Aquí irá el testimonio de un cliente.",
+      "nombre": "[NOMBRE DEL CLIENTE]",
+      "iniciales": "—",
+      "tipoCaso": "[TIPO DE CASO]",
+      "calificacion": 0
+    },
+    {
+      "esEjemplo": true,
+      "texto": "Aquí irá el testimonio de un cliente.",
+      "nombre": "[NOMBRE DEL CLIENTE]",
+      "iniciales": "—",
+      "tipoCaso": "[TIPO DE CASO]",
+      "calificacion": 0
+    },
+    {
+      "esEjemplo": true,
+      "texto": "Aquí irá el testimonio de un cliente.",
+      "nombre": "[NOMBRE DEL CLIENTE]",
+      "iniciales": "—",
+      "tipoCaso": "[TIPO DE CASO]",
+      "calificacion": 0
+    },
+    {
+      "esEjemplo": true,
+      "texto": "Aquí irá el testimonio de un cliente.",
+      "nombre": "[NOMBRE DEL CLIENTE]",
+      "iniciales": "—",
+      "tipoCaso": "[TIPO DE CASO]",
+      "calificacion": 0
+    },
+    {
+      "esEjemplo": true,
+      "texto": "Aquí irá el testimonio de un cliente.",
+      "nombre": "[NOMBRE DEL CLIENTE]",
+      "iniciales": "—",
+      "tipoCaso": "[TIPO DE CASO]",
+      "calificacion": 0
+    }
+  ]
+}
