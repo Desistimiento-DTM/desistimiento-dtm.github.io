@@ -4,7 +4,7 @@
 # ─────────────────────────────────────────────────────────────
 backend:
   name: github
-       repo: Desistimiento-DTM/desistimiento-dtm.github.io
+  repo: Desistimiento-DTM/desistimiento-dtm.github.io
   branch: main
   commit_messages:
     create: 'Crear {{collection}} "{{slug}}"'
