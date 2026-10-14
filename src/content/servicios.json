@@ -7,7 +7,7 @@
       "id": "desistimiento",
       "icono": "home",
       "titulo": "Desistimiento inmobiliario",
-      "texto": "Analizamos tu contrato y tu situación para identificar las alternativas disponibles frente a tu compra inmobiliaria.",
+      "texto": "Buscamos dar por finalizado un contrato con una constructora y de esta forma recuperar el dinero que invertiste en el proyecto. ",
       "imagen": "/images/servicio-desistimiento.svg",
       "imagenAlt": "Maqueta de vivienda con llaves sobre una mesa"
     },
@@ -15,15 +15,15 @@
       "id": "contratos",
       "icono": "document",
       "titulo": "Revisión de contratos",
-      "texto": "Revisamos promesas de compraventa, contratos y documentos relacionados con tu negocio inmobiliario.",
+      "texto": "Revisamos desde el contrato, otrosí, correos y comunicaciones que nos permitan revisar la existencia de cláusulas abusivas e incumplimientos contractuales.",
       "imagen": "/images/servicio-contratos.svg",
       "imagenAlt": "Contrato y bolígrafo sobre el escritorio"
     },
     {
       "id": "constructoras",
       "icono": "building",
-      "titulo": "Reclamaciones frente a constructoras",
-      "texto": "Acompañamiento frente a incumplimientos, retrasos, cambios contractuales y otras situaciones relacionadas con proyectos inmobiliarios.",
+      "titulo": "Reclamaciones y Procesos",
+      "texto": "Hemos llevado procesos en contra de más de 100 constructoras en el país las cuales han sido ordenadas a devolver hasta el 100% de los recursos invertidos ante la SIC",
       "imagen": "/images/servicio-constructoras.svg",
       "imagenAlt": "Edificio en construcción con grúa"
     },
