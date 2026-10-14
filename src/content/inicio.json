@@ -1,17 +1,17 @@
 {
-  "etiqueta": "Desistimiento y protección inmobiliaria",
-  "titulo": "¿Quieres desistir de tu",
-  "tituloDestacado": "compra inmobiliaria?",
-  "subtitulo": "Analizamos tu situación, revisamos tu contrato y te acompañamos para encontrar la mejor alternativa para tu caso.",
-  "botonPrincipal": "Evaluar mi caso",
-  "botonSecundario": "Hablar con un asesor",
+  "tarjetaTitulo": "Revisión de tu promesa de compraventa",
   "beneficios": [
     "Análisis de tu contrato",
     "Estrategia personalizada",
     "Acompañamiento durante el proceso"
   ],
+  "botonPrincipal": "Evaluar mi caso",
+  "tituloDestacado": "y recuperar el dinero invertido en el proyecto?",
   "imagen": "/images/hero.svg",
+  "etiqueta": "Desistimiento y protección inmobiliaria",
+  "tarjetaTexto": "Antes de firmar o desistir, entiende tu contrato.",
   "imagenAlt": "Edificios residenciales y contrato de promesa de compraventa sobre la mesa",
-  "tarjetaTitulo": "Revisión de tu promesa de compraventa",
-  "tarjetaTexto": "Antes de firmar o desistir, entiende tu contrato."
+  "botonSecundario": "Hablar con un asesor",
+  "subtitulo": "Analizamos tu caso, revisamos tu contrato y te acompañamos en encontrar la mejor alternativa para recuperar hasta el 100% del dinero invertido en el proyecto inmobiliario.",
+  "titulo": "¿Quieres desistir de tu compra inmobiliaria "
 }
