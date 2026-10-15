@@ -3,52 +3,28 @@
   "titulo": "Experiencias reales, resultados reales.",
   "testimonios": [
     {
-      "esEjemplo": true,
-      "texto": "Aquí irá el testimonio de un cliente.",
-      "nombre": "[NOMBRE DEL CLIENTE]",
+      "esEjemplo": false,
+      "texto": "La abogada Daniela me brindó una asesoría muy completa en donde entendí todo el proceso y gracias a su servicio pude recuperar mis ahorros",
+      "nombre": "María Jose G",
       "iniciales": "—",
-      "tipoCaso": "[TIPO DE CASO]",
+      "tipoCaso": "Desistimiento",
       "calificacion": 0
     },
     {
-      "esEjemplo": true,
-      "texto": "Aquí irá el testimonio de un cliente.",
-      "nombre": "[NOMBRE DEL CLIENTE]",
+      "esEjemplo": false,
+      "texto": "De antemano queremos expresar nuestro más grande agradecimiento por tus servicios. Estamos muy felices de haber contado contigo. Esperamos que sigas ayudando a muchas familias a recuperación su inversión que con tanto anhelo hacen",
+      "nombre": "Irma J",
       "iniciales": "—",
-      "tipoCaso": "[TIPO DE CASO]",
-      "calificacion": 0
+      "tipoCaso": "Desistimiento ",
+      "calificacion": 5
     },
     {
-      "esEjemplo": true,
-      "texto": "Aquí irá el testimonio de un cliente.",
-      "nombre": "[NOMBRE DEL CLIENTE]",
+      "esEjemplo": false,
+      "texto": "Desde la asesoría inicial sentí mucha confianza porque la doctora fue muy clara y amable. Ella estuvo durante todo el tiempo pendiente de mi caso y hace poco la constructora me devolvió mi dinero. Gracias Daniela por tu acompañamiento y asesoría ",
+      "nombre": "Andrés G",
       "iniciales": "—",
-      "tipoCaso": "[TIPO DE CASO]",
-      "calificacion": 0
-    },
-    {
-      "esEjemplo": true,
-      "texto": "Aquí irá el testimonio de un cliente.",
-      "nombre": "[NOMBRE DEL CLIENTE]",
-      "iniciales": "—",
-      "tipoCaso": "[TIPO DE CASO]",
-      "calificacion": 0
-    },
-    {
-      "esEjemplo": true,
-      "texto": "Aquí irá el testimonio de un cliente.",
-      "nombre": "[NOMBRE DEL CLIENTE]",
-      "iniciales": "—",
-      "tipoCaso": "[TIPO DE CASO]",
-      "calificacion": 0
-    },
-    {
-      "esEjemplo": true,
-      "texto": "Aquí irá el testimonio de un cliente.",
-      "nombre": "[NOMBRE DEL CLIENTE]",
-      "iniciales": "—",
-      "tipoCaso": "[TIPO DE CASO]",
-      "calificacion": 0
+      "tipoCaso": "Desistimiento",
+      "calificacion": 5
     }
   ]
 }
