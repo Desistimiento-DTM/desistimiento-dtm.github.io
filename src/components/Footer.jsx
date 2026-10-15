@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { site } from '../config/site.js'
 import { servicios } from '../content/index.js'
+import { serviceUrl } from '../utils/slug.js'
 import { Logo } from './ui/Icon.jsx'
 import { WhatsAppLink } from './ui/Primitives.jsx'
 
@@ -8,7 +9,7 @@ const columns = [
   { title: 'Empresa', links: [['Nosotros', '/nosotros'], ['Servicios', '/servicios'], ['Contacto', '/contacto']] },
   {
     title: 'Servicios',
-    links: (servicios.servicios || []).map((s) => [s.titulo, s.id ? `/servicios#${s.id}` : '/servicios']),
+    links: (servicios.servicios || []).map((s) => [s.titulo, serviceUrl(s)]),
   },
   { title: 'Recursos', links: [['Blog y artículos', '/blog'], ['Evalúa tu caso', '/evalua-tu-caso']] },
 ]

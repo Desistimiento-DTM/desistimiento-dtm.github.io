@@ -2,13 +2,11 @@ import { Link } from 'react-router-dom'
 import { servicios } from '../content/index.js'
 import Icon from './ui/Icon.jsx'
 import { Reveal, SectionHeading } from './ui/Primitives.jsx'
-
-const slugify = (s = '') =>
-  s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+import { serviceId, serviceUrl } from '../utils/slug.js'
 
 export function ServiceCard({ service }) {
-  const id = service.id || slugify(service.titulo)
-  const href = id === 'desistimiento' ? '/#desistimiento' : `/servicios#${id}`
+  const id = serviceId(service)
+  const href = serviceUrl(service)
   return (
     <article id={id} className="card flex h-full flex-col">
       {service.imagen && (

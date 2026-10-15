@@ -7,6 +7,7 @@ import CaseFormModal from './components/CaseFormModal.jsx'
 import ScrollManager from './components/ui/ScrollManager.jsx'
 import Home from './pages/Home.jsx'
 import Services from './pages/Services.jsx'
+import ServiceDetail from './pages/ServiceDetail.jsx'
 import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
 import Blog from './pages/Blog.jsx'
@@ -27,6 +28,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/servicios" element={<Services />} />
+          <Route path="/servicios/:id" element={<ServiceDetail />} />
           <Route path="/nosotros" element={<About />} />
           <Route path="/contacto" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />

@@ -9,7 +9,8 @@
       "titulo": "Desistimiento inmobiliario",
       "texto": "Buscamos dar por finalizado un contrato con una constructora y de esta forma recuperar todo el dinero que invertiste en el proyecto. ",
       "imagen": "/images/servicio-desistimiento.svg",
-      "imagenAlt": "Maqueta de vivienda con llaves sobre una mesa"
+      "imagenAlt": "Maqueta de vivienda con llaves sobre una mesa",
+      "detalle": "## ¿Cuándo puede aplicar?\n\n- Ya no puedes o no quieres continuar con la compra.\n- La constructora incumplió los plazos de entrega.\n- Cambiaron el precio o las condiciones que te ofrecieron.\n- El proyecto no corresponde a lo que te vendieron.\n\n## ¿Qué revisamos?\n\n- La promesa de compraventa y sus otrosíes.\n- Los pagos realizados y sus soportes.\n- Las comunicaciones con la constructora o la fiduciaria.\n- Las condiciones de desistimiento pactadas en tu contrato.\n\n## ¿Qué necesitas para empezar?\n\nTu contrato o promesa de compraventa, los soportes de pago y cualquier comunicación que hayas tenido con la constructora. Si no los tienes todos, igual podemos revisar tu caso."
     },
     {
       "id": "contratos",
@@ -17,7 +18,8 @@
       "titulo": "Revisión de contratos",
       "texto": "Revisamos desde el contrato, otrosíes, correos y comunicaciones con la constructora que nos permitan revisar la existencia de cláusulas abusivas e incumplimientos contractuales.",
       "imagen": "/images/servicio-contratos.svg",
-      "imagenAlt": "Contrato y bolígrafo sobre el escritorio"
+      "imagenAlt": "Contrato y bolígrafo sobre el escritorio",
+      "detalle": "## ¿Qué documentos revisamos?\n\n- Promesa de compraventa y contrato.\n- Otrosíes y modificaciones.\n- Cartas, correos y mensajes con la constructora.\n- Soportes de pago y planes de financiación.\n\n## ¿Qué recibes?\n\nUna explicación clara de lo que dice tu contrato, los puntos que podrían afectarte y las alternativas disponibles para tu caso.\n\n## ¿Cuándo es recomendable?\n\nAntes de firmar, antes de desistir, o cuando la constructora te propone cambios en las condiciones de tu compra."
     },
     {
       "id": "constructoras",
@@ -25,7 +27,8 @@
       "titulo": "Reclamaciones y Procesos",
       "texto": "Adelantamos procesos de desistimiento de compraventa de bienes inmuebles con la finalidad de recuperar hasta el 100% de los dineros invertidos en un proyecto inmobiliario.",
       "imagen": "/images/servicio-constructoras.svg",
-      "imagenAlt": "Edificio en construcción con grúa"
+      "imagenAlt": "Edificio en construcción con grúa",
+      "detalle": "## ¿En qué situaciones te acompañamos?\n\n- Retrasos en la entrega de la vivienda.\n- Cambios en el precio, el área o las especificaciones.\n- Incumplimiento de lo pactado en el contrato.\n- Negativa de la constructora a devolver el dinero.\n\n## ¿Cómo lo hacemos?\n\n1. Revisamos tu caso y tus documentos.\n2. Definimos contigo la estrategia.\n3. Presentamos y hacemos seguimiento a la reclamación o al proceso.\n4. Te mantenemos informado en cada etapa."
     },
     {
       "id": "consumidor",
@@ -33,7 +36,8 @@
       "titulo": "Protección al consumidor inmobiliario",
       "texto": "Evaluamos cada proceso conforme a la Ley 1480 de 2011 y las circulares externas de la Superintendencia de Industria y Comercio (SIC) aplicables a la protección del consumidor inmobiliario.",
       "imagen": "/images/servicio-consumidor.svg",
-      "imagenAlt": "Balanza con una vivienda y un documento"
+      "imagenAlt": "Balanza con una vivienda y un documento",
+      "detalle": "## ¿Cuándo te puede servir?\n\n- Información incompleta o engañosa al momento de la compra.\n- Publicidad que no corresponde con lo entregado.\n- Condiciones que consideras desequilibradas en tu contrato.\n- Dificultades para que la constructora atienda tus solicitudes.\n\n## ¿Qué hacemos?\n\nAnalizamos tu situación como comprador, te explicamos tus alternativas y te acompañamos en las reclamaciones ante la constructora y las autoridades competentes."
     }
   ]
 }

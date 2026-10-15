@@ -89,7 +89,8 @@ collections:
             summary: '{{fields.titulo}}'
             fields:
               - { label: Título, name: titulo, widget: string }
-              - { label: Texto, name: texto, widget: text }
+              - { label: Texto corto (tarjeta), name: texto, widget: text, hint: 'Aparece en la tarjeta y al inicio de la página del servicio.' }
+              - { label: Contenido de la página del servicio, name: detalle, widget: markdown, required: false, hint: 'Se muestra al pulsar «Conocer más». Usa subtítulos, listas y negritas.' }
               - label: Icono
                 name: icono
                 widget: select
