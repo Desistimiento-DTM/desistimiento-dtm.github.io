@@ -3,20 +3,20 @@
   "titulo": "Situaciones que podemos ayudarte a gestionar.",
   "casos": [
     {
-      "esEjemplo": true,
+      "esEjemplo": false,
       "titulo": "Desistimiento de proyecto inmobiliario",
       "texto": "Análisis contractual y evaluación de alternativas."
     },
     {
-      "esEjemplo": true,
-      "titulo": "Retraso en entrega de vivienda",
-      "texto": "Revisión de condiciones y alternativas frente al incumplimiento."
+      "esEjemplo": false,
+      "titulo": "Recuperación del dinero invertido",
+      "texto": "Gestión ante la constructora de la mano de la SIC la recuperación del dinero invertido."
     },
     {
-      "esEjemplo": true,
+      "esEjemplo": false,
       "titulo": "Cambios en condiciones del proyecto",
-      "texto": "Análisis de modificaciones y documentación contractual."
+      "texto": "Revisión de las modificaciones y documentación contractual."
     }
   ],
-  "notaEjemplos": "Las situaciones descritas son ejemplos ilustrativos y no corresponden a casos reales de clientes."
+  "notaEjemplos": ""
 }
