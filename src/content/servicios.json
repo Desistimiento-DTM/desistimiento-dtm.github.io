@@ -1,13 +1,13 @@
 {
   "etiqueta": "Nuestros servicios",
   "titulo": "¿En qué podemos ayudarte?",
-  "texto": "Te acompañamos en las principales situaciones relacionadas con la compra de vivienda y los conflictos inmobiliarios.",
+  "texto": "Te acompañamos en las principales situaciones relacionadas con el desistimiento de la compra de una vivienda y conflictos relacionados a la protección del consumidor.",
   "servicios": [
     {
       "id": "desistimiento",
       "icono": "home",
       "titulo": "Desistimiento inmobiliario",
-      "texto": "Buscamos dar por finalizado un contrato con una constructora y de esta forma recuperar el dinero que invertiste en el proyecto. ",
+      "texto": "Buscamos dar por finalizado un contrato con una constructora y de esta forma recuperar todo el dinero que invertiste en el proyecto. ",
       "imagen": "/images/servicio-desistimiento.svg",
       "imagenAlt": "Maqueta de vivienda con llaves sobre una mesa"
     },
@@ -15,7 +15,7 @@
       "id": "contratos",
       "icono": "document",
       "titulo": "Revisión de contratos",
-      "texto": "Revisamos desde el contrato, otrosí, correos y comunicaciones que nos permitan revisar la existencia de cláusulas abusivas e incumplimientos contractuales.",
+      "texto": "Revisamos desde el contrato, otrosíes, correos y comunicaciones con la constructora que nos permitan revisar la existencia de cláusulas abusivas e incumplimientos contractuales.",
       "imagen": "/images/servicio-contratos.svg",
       "imagenAlt": "Contrato y bolígrafo sobre el escritorio"
     },
@@ -23,7 +23,7 @@
       "id": "constructoras",
       "icono": "building",
       "titulo": "Reclamaciones y Procesos",
-      "texto": "Hemos llevado procesos en contra de más de 100 constructoras en el país las cuales han sido ordenadas a devolver hasta el 100% de los recursos invertidos ante la SIC",
+      "texto": "Adelantamos procesos de desistimiento de compraventa de bienes inmuebles con la finalidad de recuperar hasta el 100% de los dineros invertidos en un proyecto inmobiliario.",
       "imagen": "/images/servicio-constructoras.svg",
       "imagenAlt": "Edificio en construcción con grúa"
     },
@@ -31,7 +31,7 @@
       "id": "consumidor",
       "icono": "scale",
       "titulo": "Protección al consumidor inmobiliario",
-      "texto": "Orientación frente a situaciones que puedan afectar tus derechos como comprador.",
+      "texto": "Evaluamos cada proceso conforme a la Ley 1480 de 2011 y las circulares externas de la Superintendencia de Industria y Comercio (SIC) aplicables a la protección del consumidor inmobiliario.",
       "imagen": "/images/servicio-consumidor.svg",
       "imagenAlt": "Balanza con una vivienda y un documento"
     }
