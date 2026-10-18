@@ -14,6 +14,7 @@ import testimonios from './testimonios.json'
 import blog from './blog.json'
 import contacto from './contacto.json'
 import equipo from './equipo.json'
+import { slugify } from '../utils/slug.js'
 
 export { ajustes, inicio, servicios, desistimiento, nosotros, metodo, casos, testimonios, blog, contacto, equipo }
 
@@ -21,7 +22,7 @@ const slugFromPath = (p) => p.split('/').pop().replace(/\.json$/, '')
 
 /** Artículos publicados, del más reciente al más antiguo. */
 export const articulos = Object.entries(import.meta.glob('./articulos/*.json', { eager: true, import: 'default' }))
-  .map(([path, a]) => ({ ...a, slug: slugFromPath(path) }))
+  .map(([path, a]) => ({ ...a, slug: slugify(slugFromPath(path)) }))
   .filter((a) => a.publicado !== false)
   .sort((a, b) => String(b.fecha).localeCompare(String(a.fecha)))
 

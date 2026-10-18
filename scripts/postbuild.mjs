@@ -57,7 +57,7 @@ if (existsSync(artDir)) {
     const a = readJson(join(artDir, f))
     if (a.publicado === false) continue
     pages.push({
-      path: `/blog/${f.replace(/\.json$/, '')}/`,
+      path: `/blog/${slugify(f.replace(/\.json$/, ''))}/`,
       title: `${a.titulo} | ${siteName}`,
       desc: a.resumen,
       image: a.imagen,
@@ -109,7 +109,7 @@ const today = new Date().toISOString().slice(0, 10)
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages
-  .map((p) => `  <url><loc>${esc(domain + p.path)}</loc><lastmod>${p.lastmod || today}</lastmod><priority>${p.priority}</priority></url>`)
+  .map((p) => `  <url><loc>${esc(encodeURI(domain + p.path))}</loc><lastmod>${p.lastmod || today}</lastmod><priority>${p.priority}</priority></url>`)
   .join('\n')}
 </urlset>
 `

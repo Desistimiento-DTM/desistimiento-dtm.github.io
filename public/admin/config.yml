@@ -21,6 +21,12 @@ locale: es
 editor:
   preview: false
 
+# Nombres de archivo (y direcciones de los artículos) sin tildes ni signos
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: '-'
+
 # Dónde se guardan las imágenes que subes desde el panel
 media_folder: public/uploads
 public_folder: /uploads
