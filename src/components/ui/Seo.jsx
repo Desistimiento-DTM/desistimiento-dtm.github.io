@@ -3,7 +3,9 @@ import { site } from '../../config/site.js'
 /** Metadatos por página (React 19 los ubica automáticamente en <head>). */
 export default function Seo({ title, description = site.seoDescription, path = '/', image }) {
   const fullTitle = `${title || site.seoTitle} | ${site.name}`
-  const url = `${site.domain}${path}`
+  // Las páginas internas se publican como carpetas (/servicios/), así que la dirección oficial termina en «/».
+  const cleanPath = path === '/' ? '/' : `${path.replace(/\/$/, '')}/`
+  const url = `${site.domain}${cleanPath}`
   return (
     <>
       <title>{fullTitle}</title>

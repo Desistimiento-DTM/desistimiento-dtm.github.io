@@ -1,3 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://[DOMINIO-POR-DEFINIR]/sitemap.xml
+Disallow: /admin/
+
+# El sitemap y este archivo se regeneran al publicar (scripts/postbuild.mjs).
+Sitemap: https://www.mooreproteccionlegal.com/sitemap.xml
