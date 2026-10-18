@@ -13,8 +13,9 @@ import casos from './casos.json'
 import testimonios from './testimonios.json'
 import blog from './blog.json'
 import contacto from './contacto.json'
+import equipo from './equipo.json'
 
-export { ajustes, inicio, servicios, desistimiento, nosotros, metodo, casos, testimonios, blog, contacto }
+export { ajustes, inicio, servicios, desistimiento, nosotros, metodo, casos, testimonios, blog, contacto, equipo }
 
 const slugFromPath = (p) => p.split('/').pop().replace(/\.json$/, '')
 

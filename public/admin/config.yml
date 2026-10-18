@@ -155,6 +155,28 @@ collections:
           - { label: Botón, name: boton, widget: string }
           - { label: Introducción de la página "Nosotros", name: paginaIntro, widget: text, required: false }
 
+      - name: equipo
+        label: 4b. Nuestro equipo
+        file: src/content/equipo.json
+        fields:
+          - { label: Mostrar esta sección, name: mostrar, widget: boolean, default: true }
+          - { label: Texto pequeño superior, name: etiqueta, widget: string }
+          - { label: Título, name: titulo, widget: string }
+          - { label: Texto, name: texto, widget: text, required: false }
+          - label: Personas
+            name: miembros
+            label_singular: Persona
+            widget: list
+            summary: '{{fields.nombre}} — {{fields.cargo}}'
+            hint: 'Con una sola persona se muestra una tarjeta grande; con dos o más, una cuadrícula.'
+            fields:
+              - { label: Nombre completo, name: nombre, widget: string }
+              - { label: Cargo, name: cargo, widget: string, required: false, hint: 'Ej.: Abogada · Socia fundadora' }
+              - { label: Foto, name: foto, widget: image, required: false, hint: 'Vertical (retrato), idealmente 800 × 1000 px y menos de 400 KB.' }
+              - { label: Descripción breve, name: descripcion, widget: text, hint: 'Formación, experiencia y enfoque. 3 a 6 líneas.' }
+              - { label: Correo (opcional), name: correo, widget: string, required: false }
+              - { label: Enlace de LinkedIn (opcional), name: linkedin, widget: string, required: false, hint: 'Dirección completa, empezando por https://' }
+
       - name: metodo
         label: 5. Nuestro método
         file: src/content/metodo.json

@@ -1,0 +1,16 @@
+{
+  "mostrar": true,
+  "etiqueta": "Nuestro equipo",
+  "titulo": "Las personas detrás de tu caso.",
+  "texto": "Conoce a quien te acompañará durante el análisis y la gestión de tu caso.",
+  "miembros": [
+    {
+      "nombre": "[NOMBRE COMPLETO]",
+      "cargo": "[CARGO]",
+      "foto": "/images/equipo-placeholder.svg",
+      "descripcion": "[Breve descripción profesional: formación, experiencia y enfoque de trabajo. POR DEFINIR]",
+      "correo": "",
+      "linkedin": ""
+    }
+  ]
+}

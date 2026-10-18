@@ -3,6 +3,7 @@ import Hero from '../components/Hero.jsx'
 import Services from '../components/Services.jsx'
 import DesistimientoSection from '../components/DesistimientoSection.jsx'
 import About from '../components/About.jsx'
+import Team from '../components/Team.jsx'
 import Process from '../components/Process.jsx'
 import Cases from '../components/Cases.jsx'
 import Testimonials from '../components/Testimonials.jsx'
@@ -17,6 +18,7 @@ export default function Home() {
       <Services />
       <DesistimientoSection />
       <About />
+      <Team />
       <Process />
       <Cases />
       <Testimonials />
