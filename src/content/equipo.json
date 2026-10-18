@@ -1,16 +1,16 @@
 {
   "mostrar": true,
-  "etiqueta": "Nuestro equipo",
-  "titulo": "Las personas detrás de tu caso.",
-  "texto": "Conoce a quien te acompañará durante el análisis y la gestión de tu caso.",
+  "etiqueta": "CONÓCENOS",
+  "titulo": "La persona detrás de tu caso.",
+  "texto": "“Tus derechos merecen ser defendidos. Tu tranquilidad también.”",
   "miembros": [
     {
-      "nombre": "[NOMBRE COMPLETO]",
-      "cargo": "[CARGO]",
-      "foto": "/images/equipo-placeholder.svg",
-      "descripcion": "[Breve descripción profesional: formación, experiencia y enfoque de trabajo. POR DEFINIR]",
-      "correo": "",
-      "linkedin": ""
+      "nombre": "Daniela Torres Moore",
+      "cargo": "Abogada - Directora y creadora de MOORE DT LEGAL S.A.S",
+      "foto": "/uploads/5b14a061-381f-47a5-bf78-1e777394c148.png",
+      "descripcion": "Soy Daniela Torres Moore, abogada y fundadora de Moore DT Legal S.A.S.\nCreo que detrás de cada contrato hay una persona, una historia y un proyecto de vida que merece ser protegido.\n\nMi ejercicio profesional está enfocado en la protección de los derechos de los consumidores, especialmente en asuntos inmobiliarios relacionados con el desistimiento de compraventa de vivienda, los incumplimientos de las constructoras, la revisión de contratos y la identificación de cláusulas abusivas.\n\nMi propósito es brindarte una asesoría jurídica clara, estratégica y cercana, para que comprendas tus derechos, conozcas las alternativas legales disponibles y puedas tomar decisiones informadas sobre tu situación.\n\nSé que invertir en una vivienda representa mucho más que una obligación económica: significa esfuerzo, ahorro e ilusión. Por eso, cada caso merece un análisis detallado, una estrategia jurídica adecuada y un acompañamiento comprometido con la defensa de tus intereses.\n\nEn Moore DT Legal S.A.S. encontrarás una aliada para defender tus derechos y buscar soluciones jurídicas para tu caso.",
+      "correo": "desistimientoinmobiliario@gmail.com",
+      "linkedin": "https://www.instagram.com/desistimiento_inmobiliario/"
     }
   ]
 }
