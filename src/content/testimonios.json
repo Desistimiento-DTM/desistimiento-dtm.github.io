@@ -25,6 +25,27 @@
       "iniciales": "AG",
       "tipoCaso": "Desistimiento",
       "calificacion": 5
+    },
+    {
+      "calificacion": 4,
+      "esEjemplo": false,
+      "nombre": "Fernando Hoyos",
+      "texto": "Estoy muy contento con la asesoría y el acompañamiento durante todo el proceso. Todo me pareció excelente, recibí una buena atención y estoy muy satisfecho con el resultado final, ¡Muchas gracias por el apoyo y la dedicación!",
+      "tipoCaso": "Desistimiento"
+    },
+    {
+      "calificacion": 5,
+      "esEjemplo": false,
+      "texto": "Excelente",
+      "nombre": "Daniel Mauricio Gomez ",
+      "tipoCaso": "Desistimiento"
+    },
+    {
+      "calificacion": 5,
+      "esEjemplo": false,
+      "texto": "Acompañamiento en desistimiento inmobiliario. La abogada Daniela es muy empática y siempre está muy atenta a cualquier inquietud o pregunta. También es muy diligente y efectiva en responder requerimientos. Me siento muy respaldado y esperamos ser victoriosos. ",
+      "nombre": "Luis Hoyos",
+      "tipoCaso": "Desistimiento"
     }
   ]
 }
