@@ -46,6 +46,18 @@
       "texto": "Acompañamiento en desistimiento inmobiliario. La abogada Daniela es muy empática y siempre está muy atenta a cualquier inquietud o pregunta. También es muy diligente y efectiva en responder requerimientos. Me siento muy respaldado y esperamos ser victoriosos. ",
       "nombre": "Luis Hoyos",
       "tipoCaso": "Desistimiento"
+    },
+    {
+      "calificacion": 5,
+      "esEjemplo": false,
+      "texto": "Súper diligente muy atenta con el servicio acompañando y dando una excelente asesoría ",
+      "nombre": "Maria Isabel Toro"
+    },
+    {
+      "calificacion": 5,
+      "esEjemplo": false,
+      "texto": "Excelente asesoría rápida respuesta trabajo impecable",
+      "nombre": "Adriana Espitia Lopez"
     }
   ]
 }
