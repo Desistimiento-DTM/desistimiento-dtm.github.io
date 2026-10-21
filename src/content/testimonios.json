@@ -58,6 +58,18 @@
       "esEjemplo": false,
       "texto": "Excelente asesoría rápida respuesta trabajo impecable",
       "nombre": "Adriana Espitia Lopez"
+    },
+    {
+      "calificacion": 5,
+      "esEjemplo": false,
+      "texto": "Me encanta siempre pendientes",
+      "nombre": "Cindy Vanessa Jimenez"
+    },
+    {
+      "calificacion": 5,
+      "esEjemplo": false,
+      "texto": "Daniela ha sido súper atenta desde el comienzo del proceso. Siempre que tengo alguna pregunta o inquietud, está dispuesta a ayudarme y orientarme. Durante las reuniones he tenido varias preguntas y siempre ha estado muy pendiente, lo que me ha hecho sentir acompañada y tranquila. Estoy muy contenta con la experiencia hasta ahora.\n\nComo único punto de retroalimentación, creo que sería positivo que, durante la primera llamada, se pudiera tener la cámara encendida, si es posible. Como trabajo de manera remota y suelo tener reuniones con la cámara prendida, siento que ver a la persona desde el comienzo ayuda a generar más confianza y a crear una conexión más cercana.\n\nPor lo demás, siento que todo ha estado excelente. Estoy muy agradecida por el acompañamiento de Daniela, muy emocionada por ver cómo continúa el proceso y con muchas expectativas de obtener los mejores resultados.",
+      "nombre": "Sofia Veira"
     }
   ]
 }
