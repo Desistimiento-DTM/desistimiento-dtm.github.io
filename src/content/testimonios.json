@@ -4,7 +4,7 @@
   "testimonios": [
     {
       "esEjemplo": false,
-      "texto": "De antemano queremos expresar nuestro más grande agradecimiento por tus servicios. Estamos muy felices de haber contado contigo. Esperamos que sigas ayudando a muchas familias a recuperación su inversión que con tanto anhelo hacen",
+      "texto": "De antemano queremos expresar nuestro más grande agradecimiento por tus servicios. Estamos muy felices de haber contado contigo. Esperamos que sigas ayudando a muchas familias a recuperación su inversión que con tanto anhelo hacen.",
       "nombre": "Irma J",
       "iniciales": "IJ",
       "tipoCaso": "Desistimiento ",
@@ -12,7 +12,7 @@
     },
     {
       "esEjemplo": false,
-      "texto": "Desde la asesoría inicial sentí mucha confianza porque la doctora fue muy clara y amable. Ella estuvo durante todo el tiempo pendiente de mi caso y hace poco la constructora me devolvió mi dinero. Gracias Daniela por tu acompañamiento y asesoría ",
+      "texto": "Desde la asesoría inicial sentí mucha confianza porque la doctora fue muy clara y amable. Ella estuvo durante todo el tiempo pendiente de mi caso y hace poco la constructora me devolvió mi dinero. Gracias Daniela por tu acompañamiento y asesoría.",
       "nombre": "Andrés G",
       "iniciales": "AG",
       "tipoCaso": "Desistimiento",
@@ -21,19 +21,19 @@
     {
       "calificacion": 5,
       "esEjemplo": false,
-      "texto": "Súper diligente muy atenta con el servicio acompañando y dando una excelente asesoría ",
+      "texto": "Súper diligente muy atenta con el servicio acompañando y dando una excelente asesoría.",
       "nombre": "Maria Isabel Toro"
     },
     {
       "calificacion": 5,
       "esEjemplo": false,
-      "texto": "Excelente asesoría rápida respuesta trabajo impecable",
+      "texto": "Excelente asesoría rápida respuesta trabajo impecable.",
       "nombre": "Adriana Espitia Lopez"
     },
     {
       "calificacion": 5,
       "esEjemplo": false,
-      "texto": "Me encanta siempre pendientes",
+      "texto": "Me encanta siempre pendientes.",
       "nombre": "Cindy Vanessa Jimenez",
       "tipoCaso": "DESISTIMIENTO"
     },
