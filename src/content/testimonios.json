@@ -27,27 +27,6 @@
       "calificacion": 5
     },
     {
-      "calificacion": 4,
-      "esEjemplo": false,
-      "nombre": "Fernando Hoyos",
-      "texto": "Estoy muy contento con la asesoría y el acompañamiento durante todo el proceso. Todo me pareció excelente, recibí una buena atención y estoy muy satisfecho con el resultado final, ¡Muchas gracias por el apoyo y la dedicación!",
-      "tipoCaso": "Desistimiento"
-    },
-    {
-      "calificacion": 5,
-      "esEjemplo": false,
-      "texto": "Excelente",
-      "nombre": "Daniel Mauricio Gomez ",
-      "tipoCaso": "Desistimiento"
-    },
-    {
-      "calificacion": 5,
-      "esEjemplo": false,
-      "texto": "Acompañamiento en desistimiento inmobiliario. La abogada Daniela es muy empática y siempre está muy atenta a cualquier inquietud o pregunta. También es muy diligente y efectiva en responder requerimientos. Me siento muy respaldado y esperamos ser victoriosos. ",
-      "nombre": "Luis Hoyos",
-      "tipoCaso": "Desistimiento"
-    },
-    {
       "calificacion": 5,
       "esEjemplo": false,
       "texto": "Súper diligente muy atenta con el servicio acompañando y dando una excelente asesoría ",
@@ -63,13 +42,15 @@
       "calificacion": 5,
       "esEjemplo": false,
       "texto": "Me encanta siempre pendientes",
-      "nombre": "Cindy Vanessa Jimenez"
+      "nombre": "Cindy Vanessa Jimenez",
+      "tipoCaso": "DESISTIMIENTO"
     },
     {
       "calificacion": 5,
       "esEjemplo": false,
-      "texto": "Daniela ha sido súper atenta desde el comienzo del proceso. Siempre que tengo alguna pregunta o inquietud, está dispuesta a ayudarme y orientarme. Durante las reuniones he tenido varias preguntas y siempre ha estado muy pendiente, lo que me ha hecho sentir acompañada y tranquila. Estoy muy contenta con la experiencia hasta ahora.\n\nComo único punto de retroalimentación, creo que sería positivo que, durante la primera llamada, se pudiera tener la cámara encendida, si es posible. Como trabajo de manera remota y suelo tener reuniones con la cámara prendida, siento que ver a la persona desde el comienzo ayuda a generar más confianza y a crear una conexión más cercana.\n\nPor lo demás, siento que todo ha estado excelente. Estoy muy agradecida por el acompañamiento de Daniela, muy emocionada por ver cómo continúa el proceso y con muchas expectativas de obtener los mejores resultados.",
-      "nombre": "Sofia Veira"
+      "texto": "Daniela ha sido súper atenta desde el comienzo del proceso. Siempre que tengo alguna pregunta o inquietud, está dispuesta a ayudarme y orientarme. Durante las reuniones he tenido varias preguntas y siempre ha estado muy pendiente, lo que me ha hecho sentir acompañada y tranquila. Estoy muy contenta con la experiencia hasta ahora. Como único punto de retroalimentación, creo que sería positivo que, durante la primera llamada, si tener la cámara encendida, si es posible. Como trabajo de manera remota y suelo tener reuniones con la cámara prendida, siento que ver a la persona desde el comienzo ayuda a generar más confianza y a crear una conexión más cercana. Por lo demás, siento que todo ha estado excelente. Estoy muy agradecida por el acompañamiento de Daniela, muy emocionada por ver cómo continúa el proceso y con muchas expectativas de obtener los mejores resultados.",
+      "nombre": "Sofia Veira",
+      "iniciales": "DESISTIMIENTO "
     }
   ]
 }
