@@ -4,14 +4,6 @@
   "testimonios": [
     {
       "esEjemplo": false,
-      "texto": "La abogada Daniela me brindó una asesoría muy completa en donde entendí todo el proceso y gracias a su servicio pude recuperar mis ahorros",
-      "nombre": "María Jose G",
-      "iniciales": "MJG",
-      "tipoCaso": "Desistimiento",
-      "calificacion": 5
-    },
-    {
-      "esEjemplo": false,
       "texto": "De antemano queremos expresar nuestro más grande agradecimiento por tus servicios. Estamos muy felices de haber contado contigo. Esperamos que sigas ayudando a muchas familias a recuperación su inversión que con tanto anhelo hacen",
       "nombre": "Irma J",
       "iniciales": "IJ",
@@ -48,7 +40,7 @@
     {
       "calificacion": 5,
       "esEjemplo": false,
-      "texto": "Daniela ha sido súper atenta desde el comienzo del proceso. Siempre que tengo alguna pregunta o inquietud, está dispuesta a ayudarme y orientarme. Durante las reuniones he tenido varias preguntas y siempre ha estado muy pendiente, lo que me ha hecho sentir acompañada y tranquila. Estoy muy contenta con la experiencia hasta ahora. Como único punto de retroalimentación, creo que sería positivo que, durante la primera llamada, si tener la cámara encendida, si es posible. Como trabajo de manera remota y suelo tener reuniones con la cámara prendida, siento que ver a la persona desde el comienzo ayuda a generar más confianza y a crear una conexión más cercana. Por lo demás, siento que todo ha estado excelente. Estoy muy agradecida por el acompañamiento de Daniela, muy emocionada por ver cómo continúa el proceso y con muchas expectativas de obtener los mejores resultados.",
+      "texto": "Daniela ha sido súper atenta desde el comienzo del proceso. Siempre que tengo alguna pregunta o inquietud, está dispuesta a ayudarme y orientarme. Durante las reuniones he tenido varias preguntas y siempre ha estado muy pendiente, lo que me ha hecho sentir acompañada y tranquila. Estoy muy contenta con la experiencia hasta ahora.",
       "nombre": "Sofia Veira",
       "iniciales": "DESISTIMIENTO "
     }
